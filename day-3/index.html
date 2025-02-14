@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indranil's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Indranil Paul</h1>
+        <h3>Web Developer</h3>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <img src="profile pic.jpg" alt="Profile Picture">
+        <h2>Hello! I am Indranil Paul, a passionate Web Developer</h2>
+        <p>Welcome to my portfolio website.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Computer Science student with a deep-seated passion for crafting innovative web solutions, exploring the fascinating realm of Artificial Intelligence, and contributing to impactful open-source initiatives. My academic pursuits have equipped me with a strong foundation in data structures, algorithms, and software engineering principles, which I eagerly apply to real-world projects. I am particularly interested in leveraging cutting-edge technologies to solve complex problems and create user-friendly experiences. As a tech enthusiast, I am constantly seeking opportunities to expand my knowledge, collaborate with like-minded individuals, and make a meaningful contribution to the ever-evolving tech landscape.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="HTML Logo"><b>HTML</b></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo"><b>CSS</b></li>
+            <li><img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" alt="JavaScript Logo"><b>JavaScript</b></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="React Logo"><b>React.js</b></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" alt="Node Logo"><b>Node.js</b></li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <table>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Technologies Used</th>
+            </tr>
+            <tr>
+                <td><a href="#">Project 1</a></td>
+                <td>A simple web app</td>
+                <td>HTML, CSS, JS</td>
+            </tr>
+            <tr>
+                <td><a href="#">Project 2</a></td>
+                <td>Portfolio Website</td>
+                <td>React.js, Tailwind CSS</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send</button>
+        </form>
+    </section>
+
+    <button class="flotingbtn"><a href="#home">🔼</a></button>
+    <footer>
+        <p>© 2025 Indranil Paul. All rights reserved.</p>
+    </footer>
+</body>
+</html>
