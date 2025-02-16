@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 24px;
+    color:midnightblue;
+    animation: morphText 3s infinite alternate ease-in-out;
+}
+@keyframes morphText {
+    0% {
+        font-size: 24px;
+        color: #ff6b6b;
+        transform: scale(1);
+    }
+    50% {
+        font-size: 30px;
+        color: #556270;
+        transform: scale(1.1);
+    }
+    100% {
+        font-size: 26px;
+        color: #4caf50;
+        transform: scale(1);
+    }
+}
+span{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 700;
+
+}
+span:hover{
+    color: rgb(2, 139, 194);
+}
+.magic-box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #6bc1ff, #087fff);
+    margin: 50px auto;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+
+.magic-box:hover {
+    background: linear-gradient(45deg, #c1ff6b, #ff9523);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.magic-box:active {
+    transform: rotateX(360deg);
+    transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .magic-box {
+        width: 150px;
+        height: 150px;
+    }
+}
