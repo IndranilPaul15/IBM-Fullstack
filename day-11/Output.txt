@@ -1,0 +1,46 @@
+PS C:\Users\Indranil Paul\Desktop\WEB DEV\IBM Fullstack\day-11> node Name.js        
+Name: INDRANIL PAUL
+Roll: 002-BCS-2022-174
+PS C:\Users\Indranil Paul\Desktop\WEB DEV\IBM Fullstack\day-11> node Problem1.js
+86
+Passed
+PS C:\Users\Indranil Paul\Desktop\WEB DEV\IBM Fullstack\day-11> node Problem2.js
+2
+PS C:\Users\Indranil Paul\Desktop\WEB DEV\IBM Fullstack\day-11> node Problem3.js
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+PS C:\Users\Indranil Paul\Desktop\WEB DEV\IBM Fullstack\day-11> node Problem4.js
+1
+2
+Fizz
+4
+Buzz
+7
+Fizz
+11
+13
+FizzBuzz
+tpircSavaJ
+[ 1, 2, 3, 4, 5, 6 ]
+PS C:\Users\Indranil Paul\Desktop\WEB DEV\IBM Fullstack\day-11> node Problem7.js
+challenging
+[ 2, 4, 6, 8 ]
+e
+PS C:\Users\Indranil Paul\Desktop\WEB DEV\IBM Fullstack\day-11> node Problem10.js
+[ [ 2, 8 ], [ 3, 7 ] ]
+PS C:\Users\Indranil Paul\Desktop\WEB DEV\IBM Fullstack\day-11> node Problem11.js
+20
+10
+false
+PS C:\Users\Indranil Paul\Desktop\WEB DEV\IBM Fullstack\day-11> node Problem12.js
+abcxyzpq175
+PS C:\Users\Indranil Paul\Desktop\WEB DEV\IBM Fullstack\day-11> node Problem13.js
+3
+PS C:\Users\Indranil Paul\Desktop\WEB DEV\IBM Fullstack\day-11> 
