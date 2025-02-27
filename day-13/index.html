@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eshopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Online Store</h1>
+        <input type="text" id="searchBar" placeholder="Search products...">
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Wearable">Wearable</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Home & Kitchen">Home & Kitchen</option>
+            <option value="Accessories">Accessories</option>
+        </select>
+        <select id="sortPrice">
+            <option value="low-high">Price: Low to High</option>
+            <option value="high-low">Price: High to Low</option>
+        </select>
+        <button onclick="goToCart()">🛒 Go to Cart</button>
+    </header>
+    
+    <div id="productList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

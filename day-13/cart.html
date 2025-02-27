@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🛒 Your Shopping Cart</h1>
+        <button class="back-btn" onclick="goToProducts()">⬅ Back to Products</button>
+    </header>
+
+    <div class="cart-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th>Quantity</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody id="cartItems"></tbody>
+        </table>
+
+        <h2 id="cartTotal">Total: ₹0</h2>
+
+        <button id="checkoutBtn" onclick="checkout()">Proceed to Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", displayCart);
+    </script>
+
+</body>
+</html>

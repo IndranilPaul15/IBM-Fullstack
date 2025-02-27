@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    background: rgb(0, 176, 207);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:active{
+    scale:95%;
+}
+
+#productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#checkoutBtn {
+    margin-top: 20px;
+    padding: 10px;
+    background: blue;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.back-btn {
+    background: white;
+    color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background: #e0e0e0;
+}
+
+.cart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+td img {
+    width: 50px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#checkoutBtn {
+    width: 100%;
+    background: #28a745;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#checkoutBtn:hover {
+    background: #218838;
+}
+
+.remove-btn {
+    background: #dc3545;
+    color: white;
+}
+
+.remove-btn:hover {
+    background: #c82333;
+}
+
+.quantity-btn {
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.quantity-btn:hover {
+    background: #0056b3;
+}
+
+#sortPrice{
+    padding: 6px;
+    border-radius: 6px;
+}
+#categoryFilter{
+    padding: 6px;
+    border-radius: 6px;
+}
+#searchBar{
+    padding: 6px;
+    border-radius: 6px;
+}
