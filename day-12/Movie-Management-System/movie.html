@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Movie List</h2>
+
+    <input type="text" id="search" placeholder="Search by name or genre" onkeyup="searchMovies()">
+
+    <label for="sort">Sort by:</label>
+    <select id="sort" onchange="sortMovies()">
+        <option value="">-- Select --</option>
+        <option value="name">Name</option>
+        <option value="year">Release Year</option>
+        <option value="rating">IMDb Rating</option>
+    </select>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Year</th>
+                <th>Rating</th>
+                <th>Genre</th>
+                <th>Poster</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="movieList"></tbody>
+    </table>
+
+    <div class="nav-buttons">
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
